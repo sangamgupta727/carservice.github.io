@@ -3870,5 +3870,14 @@ label {
     padding: 10px 1px;
     width: 310%;
 }
+	  .header {
+    float: left;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    border-bottom: 3px solid #101010;
+    border-bottom-style: 2px dashed;
+    background-image: url(../image/1.jpg);
+}
    }
 
