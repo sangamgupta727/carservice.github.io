@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Car Service.com</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -16,40 +17,42 @@ html { min-height:300vh;}
 </head>
 
 <body>
+<!-- strt-->
 <div class="container-fluid header">
-<div class="container">
-<div class="col-md-12">
-<div class="logo">
+  <div class="container">
+    <div class="col-md-12">
+   <div class="logo">
 <img src="image/logo-black.png">
 </div><!--logo-->
-
-
-<div class="menu">
-<ul>
-<a href="index.html"><li>Home</li></a>
-<a href="about.html"><li>About us</li></a>
-<a href="service.html"><li>Services</li></a>
-<a href="gallery.html"><li>Gallery</li></a>
-
-<a href="sign.html"><li>Sign in</li></a>
-</ul>
-</div><!--menu-->
+    <div id="menu">
+ <ul>
+              <li class="current"><a href="index.html">Home<span class="arrow"></span></a> </li>
+             <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="sign.html">Sign in</a></li>
+            </ul>
+  </div>
+  <a class="bar" onclick="hello()"><i class="fa fa-bars"></i></a>
 
 
 
-<div class="para1">
+  <div class="para1">
 <h4>Looking For Right Vehicle</h4>
 <h1>Make Your Car Last Longer</h1>
 <p>There Are Many Longer Passenger For safety Rules</p>
 </div><!--para-->
 
-
 <div class="more1">
 <a href="about.html">Click Here..</a>
 </div>
 </div>
-</div><!--container-->
-</div><!--fluid-->
+  </div>
+   </div>
+  <!-- end-->
+
+
+
 
 <div class="container-fluid side1">
 </div><!--fuild-->
@@ -244,7 +247,7 @@ html { min-height:300vh;}
 <h4>Clutch Service</h4>
 </div><!--infant-->
 <div class="boxp">
-<p>Clutch Installation Services.For many drivers on the road is nothing like driving a vehicle from $300</p>
+<p>Clutch Installation Services.For many drivers on the road is nothing like driving a vehicle from $300 to $900.</p>
 </div><!--boxp-->
 
 <div class="more2">
@@ -267,13 +270,14 @@ html { min-height:300vh;}
 <div class="container-fluid about1">
  <div class="container">
 <div class="col-md-12">
-<div class="para">
-<h1>Why We Are Special</h1>
-<div class="bot">
+<div class="our">
+
+<h3 style="color: #000 !important;">Why We Are Special</h3>
+<div class="bot2">
 </div><!--bot-->
-<div class="bot4">
-</div> 
-</div><!--para-->
+<div class="bot3">
+</div>
+</div><!--our-->
 </div><!--twelve-->
 
 
@@ -826,7 +830,7 @@ html { min-height:300vh;}
  <div class="container">
  <div class="col-md-12">
 <div class="copy">
-<h5> &copy; Copyright Invictus- All RightReserved</h5>
+<h5> © Copyright Invictus- All RightReserved </h5>
 </div><!--copy-->
 </div>
  </div><!--cont-->
@@ -903,6 +907,13 @@ $('#gotop').gotop({
 			
 			
 <!--counter-->
+
+ <script type="text/javascript">
+    function hello() {
+    var media = document.getElementById('menu');
+    media.classList.toggle("active");
+  }
+  </script>
 
 <script src="js/bootstrap.min.js"></script>
 </body>
