@@ -3367,6 +3367,32 @@ label {
     overflow-y: hidden !important;
     overflow-x: hidden !important;
 }
+	  .topab {
+    float: left;
+    min-height: 0px;
+    /* overflow: hidden; */
+    width: 100%;
+    /* position: fixed; */
+    padding-bottom: 33px;
+    /* z-index: 9999; */
+    background: rgba(6, 6, 6, 0.88);
+}
+	  .file {
+    float: left;
+    min-height: 0px;
+    padding-bottom: 7%;
+    /* height: 51px; */
+    width: 21%;
+    background-color: #d43838;
+}
+	  .ableft img {
+    float: left;
+    /* min-height: 0px; */
+    width: 100%;
+    width: 1005;
+    height: auto;
+    /* width: 539px; */
+}
   .bar {
       border: 2px  solid #fff;
       text-decoration: none;
