@@ -3757,6 +3757,8 @@ label {
     /* margin: 121px auto; */
     min-height: 0px;
     width: 65%;
+    z-index: 0;
+    position: relative;
     border: 1px dashed #fff;
 }
 .mid h1 {
