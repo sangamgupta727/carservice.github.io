@@ -3393,6 +3393,24 @@ label {
     height: auto;
     /* width: 539px; */
 }
+	  .abot h2 {
+    float: left;
+    color: #232222;
+    font-size: 19px;
+    padding-top: 6%;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 20%;
+}
+	  .abot h5 {
+    float: left;
+    color: #272626;
+    padding-left: 3%;
+    padding-top: 6%;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
   .bar {
       border: 2px  solid #fff;
       text-decoration: none;
