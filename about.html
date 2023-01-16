@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Car Service/About.com</title>
+<title>Car Service</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 
 
 
@@ -17,32 +19,26 @@ html { min-height:300vh;}
 
 <body>
 
+
+
 <div class="container-fluid topab">
 <div class="container">
-<div class="col-md-12">
-<div class="logo1">
+    <div class="col-md-12">
+   <div class="logo">
 <img src="image/logo-black.png">
 </div><!--logo-->
+    <div id="menu">
+ <ul>
+              <li class="current"><a href="index.html">Home<span class="arrow"></span></a> </li>
+             <li><a href="about.html">About Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="sign.html">Sign in</a></li>
+            </ul>
+  </div>
+  <a class="bar" onclick="hello()"><i class="fa fa-bars"></i></a>
 
-
-<div class="menu1">
-<ul>
-<a href="index.html"><li>Home</li></a>
-<a href="about.html"><li>About us</li></a>
-<a href="service.html"><li>Services</li></a>
-<a href="gallery.html"><li>Gallery</li></a>
-
-<a href="sign.html"><li>Sign in</li></a>
-</ul>
-</div><!--menu-->
-
-
-
-
-
-
-
-</div><!--twelve-->
+</div>
 </div><!--cont-->
 </div><!--fluid-->
 
@@ -437,7 +433,7 @@ Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit
  <div class="container">
  <div class="col-md-12">
 <div class="copy">
-<h5> &copy; Copyright Invictus- All RightReserved</h5>
+<h5>  © Copyright Invictus- All RightReserved</h5>
 </div><!--copy-->
 </div>
  </div><!--cont-->
@@ -468,7 +464,13 @@ $('#gotop').gotop({
   
   
    
-   
+    <script type="text/javascript">
+    function hello() {
+    var media = document.getElementById('menu');
+    media.classList.toggle("active");
+  }
+  </script>
+
 
 
 <script src="js/bootstrap.min.js"></script>
