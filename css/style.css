@@ -3879,5 +3879,9 @@ label {
     border-bottom-style: 2px dashed;
     background-image: url(../image/1.jpg);
 }
-   }
+	  .side1 {
+	  display:none;
+	  }
+  
+}
 
